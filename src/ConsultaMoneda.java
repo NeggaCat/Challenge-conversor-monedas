@@ -9,7 +9,7 @@ import java.net.http.HttpResponse;
 public class ConsultaMoneda {
     public Monedas buscaMoneda(String monedaBase) {
         // Recuerda colocar tu API KEY real aquí
-        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/f89f8cec13f4df2be24737ae/latest/" + monedaBase);
+        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/****************/latest/" + monedaBase);
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
